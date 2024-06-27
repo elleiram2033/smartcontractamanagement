@@ -1,4 +1,4 @@
-# Assessment Smart Contract
+# Module 2 Smart Contract Management
 
 This project demonstrates a simple Ethereum smart contract written in Solidity and deployed using ethers.js. The contract, `Assessment`, allows for deposits and withdrawals, and includes functions for checking the balance, renouncing ownership, and withdrawing all funds.
 
@@ -153,10 +153,13 @@ main().catch(console.error);
    ```bash
    npm start
     ```
+   
 or
+
     ```bash
     yarn start
     ```
+    
 3. Follow the instructions in the browser console to interact with the contract.
 
 

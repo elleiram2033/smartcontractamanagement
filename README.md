@@ -154,7 +154,7 @@ main().catch(console.error);
    npm start
     ```
    
-or
+    or
 
     ```bash
     yarn start

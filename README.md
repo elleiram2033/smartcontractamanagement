@@ -150,14 +150,22 @@ main().catch(console.error);
 
 2. Open the project directory and run the following command:
 
-   ```bash
+   \```bash
    npm start
 \```
 or
-```bash
-  yarn start
-```
+    \```bash
+    yarn start
+\```
 3. Follow the instructions in the browser console to interact with the contract.
 
 
+## Author
+
+Marielle Romana
+
+NTC EMAIL: 421000169@ntc.edu.ph
+
 ## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.

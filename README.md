@@ -15,7 +15,7 @@ The `Assessment` contract allows users to deposit and withdraw Ether. The owner 
 
 ### Solidity Code
 
-\```solidity
+```solidity
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
@@ -62,7 +62,7 @@ contract Assessment {
         owner = address(0);
     }
 }
-\```
+```
 
 ## Deployment Script
 
@@ -70,7 +70,7 @@ This script deploys the `Assessment` contract and demonstrates its usage.
 
 ### JavaScript Code
 
-\```javascript
+```javascript
 import { ethers } from 'ethers';
 
 const contractSource = `
@@ -142,7 +142,7 @@ async function main() {
 }
 
 main().catch(console.error);
-\```
+```
 
 ## Running the Project
 
@@ -150,13 +150,13 @@ main().catch(console.error);
 
 2. Open the project directory and run the following command:
 
-   \```bash
+   ```bash
    npm start
-\```
+    ```
 or
-    \```bash
+    ```bash
     yarn start
-\```
+    ```
 3. Follow the instructions in the browser console to interact with the contract.
 
 
